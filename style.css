@@ -1,0 +1,234 @@
+/* General Reset */
+body, h1, h2, p, ul, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #2e2d2d;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color: hsl(208, 17%, 22%);
+    color: white;
+    padding: 10px 20px;
+    
+  }
+  
+  .main-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #464f58;
+  }
+
+  
+  /* Hero Section */
+  .hero {
+    background-image: url(aaa.jpg);
+    background-size: cover;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: white;
+    color: #4e565f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Services Section */
+  .services {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px 20px;
+  
+}
+  
+  .service-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-card h2 {
+    color: #39414b;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .resources {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.resources h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources li {
+    margin: 10px 0;
+}
+
+.resource-link {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.resource-link.powerpoint {
+    background-color: #4b4f61;
+}
+
+.resource-link.excel {
+    background-color: #3b3d4d;
+}
+
+.resource-link:hover {
+    opacity: 0.8;
+}
+
+/* Style the images/icons */
+.resource-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  /* Gallery Container */
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .gallery-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grid Display */
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive Grid */
+    gap: 15px; /* Space between items */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Gallery Item */
+  .gallery-item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images scale proportionally */
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+
+  .end {
+    background-color: hsl(208, 17%, 22%);
+    color: white;
+    padding: 10px 20px;
+     }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
